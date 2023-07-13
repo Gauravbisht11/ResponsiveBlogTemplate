@@ -1,0 +1,26 @@
+
+    .contact-contain{
+
+
+        /* background-color: aqua; */
+        height:80vh;
+        /* margin: auto; */
+        /* display: flex; */
+        /* align-items: center;
+        justify-content: space-between; */
+        position: relative;
+        }
+        .contact-contain::before{
+            content: "";
+            height: 80vh;
+            width: 70vw;
+            background-image: url("/img/11.svg");
+        opacity: 0.15;
+        background-size: cover;
+        /* background-repeat: no-repeat; */
+        position:absolute;
+        z-index: -1;
+        }
+    .px1{
+        padding: 6px 23px;
+    }

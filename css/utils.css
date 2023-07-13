@@ -1,0 +1,38 @@
+:root{
+    --main-bg-color:rgb(207, 160, 72);
+}
+
+.main-bg-color{
+ background-color: var(--main-bg-color) 
+}
+
+
+.max-width{
+    max-width: 70vw;
+}
+.m-auto{
+    margin:auto;
+}
+.font1{
+    font-family:  'Arial Narrow','Franklin Gothic Medium';
+
+}
+.font2{
+    font-family: sans-serif;}
+
+    .form-input{
+
+        border-radius: 4px;
+        /* margin: 0 16px; */
+        border: 2px solid  var(--main-bg-color);
+        padding: 3px 6px;
+
+    }
+.margin-top{
+    margin: 9px auto;
+}
+.form-box input,textarea{
+
+    width: 37vw;
+padding: 8px;
+}

@@ -1,0 +1,128 @@
+
+*{
+    margin: 0;padding: 0;
+}
+.navigation{
+    margin-top: 60px;
+    /* background-color: black; */
+    margin-bottom: 28px;
+}
+.content{
+
+
+/* background-color: aqua; */
+width: 69vw;
+margin: auto;
+display:flex;
+align-items: center;
+justify-content: space-between;
+position: relative;
+/* height: 46vh; */
+height:100%;
+
+}
+
+.content::after{
+    content: "";
+    height: 100%;
+    width: 69vw;
+    background-image: url("/img/11.svg");
+opacity: 0.15;
+background-size: cover;
+/* background-repeat: no-repeat; */
+position:absolute;
+}
+.content-left{
+    padding-left: 21px;
+}
+.left ul{
+    display: flex;
+}
+.navigation{
+    display: flex;
+    color:black;
+    align-items: center;
+justify-content: space-around;
+    
+}
+.left ul li{
+
+    padding-top: 13px;
+}
+.left ul li a{
+    margin:12px;
+    text-decoration: none;
+    color:black;
+    
+}
+.left ul li a:hover{
+    color:green;
+}
+
+
+.btn{
+    padding: 3.5px;
+    border: 2px solid black;
+border-radius: 5px;
+transition: all 0.3s ease;
+}
+.btn:hover{
+ cursor: pointer;
+ background-color: rgb(101, 157, 173);
+
+}
+.content-right img{
+    height: 26vh;
+    border-radius: 160px;
+border: 2px solid black;
+}
+
+.content-right {
+    margin-left: 81px;
+}
+.home-articles{
+    
+    padding-top: 15px;
+    display: flex;
+    /* background-color: red; */
+    flex-direction: column;
+    background-color: rgb(246, 225, 229,0.26);   
+    position: relative; 
+}
+.year-box{
+    position: absolute;
+/* background-color: red; */
+height: 44px;
+width: 85px;
+right: 0px;
+top: 20px;
+font-size: 12px;
+}
+.home-article{
+    display: flex;
+    margin: 15px;
+    padding-left: 12px;
+    
+}
+.home-article-content{
+   
+    align-self: center;
+    margin-left: 18px;
+}
+.home-article-content a{
+    text-decoration: none;
+    color:rgb(84, 84, 156)
+}
+.home-article img{
+    width: 15vw;
+}
+.footer{
+position: relative;
+bottom:0;
+background-color: rgb(49, 50, 51);
+display: flex;
+align-items: center;
+justify-content: center;
+color:black;
+flex-direction: column;
+}
